@@ -75,19 +75,19 @@ const managerQuestions = () =>
             type: "input",
             prefix: ">",
             name: "name",
-            message: "What is the Engineer's name? "
+            message: "What is the Manager's name? "
         },
         {
             type: "input",
             prefix: ">",
             name: "id",
-            message: "What is the Engineer's employee ID? "
+            message: "What is the Manager's employee ID? "
         },
         {
             type: "input",
             prefix: ">",
             name: "email",
-            message: "What is the Engineer's email address? "
+            message: "What is the Manager's email address? "
         },
         {
             type: "input",

@@ -1,0 +1,23 @@
+.text-center {
+    font-family: 'Bodoni Moda', serif;
+    color: whitesmoke;
+}
+
+body {
+    background-image: url(img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.col-12 {
+    background-color: transparent !important;
+}
+
+.card-header {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.card-body{
+    font-family: 'Roboto', sans-serif;
+}
