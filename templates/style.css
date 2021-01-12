@@ -1,23 +1,49 @@
-.text-center {
-    font-family: 'Bodoni Moda', serif;
-    color: whitesmoke;
-}
-
 body {
-    background-image: url(img1.jpg);
+    background-image: url(space3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+.text-center {
+    font-family: 'Cantarell', sans-serif;
+    font-size: 60PX;
+    color: goldenrod;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .col-12 {
     background-color: transparent !important;
 }
 
-.card-header {
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+.card-title {
+    display: flex;
+ 
 }
 
-.card-body{
-    font-family: 'Roboto', sans-serif;
+.card-body,
+.card-header {
+    font-family: 'Fira Sans', sans-serif;
+    opacity: 0.5;
+}
+
+.card-body:hover,
+.card-header:hover {
+    opacity: 1.0;
+    cursor: url(icons8-lightsaber-48.png), auto;
+} 
+
+.team-area {
+    justify-content: space-around;
+}
+
+div.card {
+    border: 5px solid red;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(216, 34, 34, 0.2), 0 6px 20px 0 rgba(250, 4, 4, 0.19);
+}
+
+div.card:nth-child(2n+0) {
+    border: 5px solid blue;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(72, 83, 235, 0.479), 0 6px 20px 0 rgba(72, 83, 235, 0.479);
 }
