@@ -2,10 +2,13 @@ body {
     background-image: url(space3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    cursor: url(icons8-lightsaber-48.png), auto;
 }
 .text-center {
     font-family: 'Cantarell', sans-serif;
     font-size: 60PX;
+    font-style: italic;
+    text-transform: uppercase;
     color: goldenrod;
     display: flex;
     justify-content: flex-start;
@@ -15,35 +18,42 @@ body {
     background-color: transparent !important;
 }
 
-.card-title {
+h2,
+h3 {
     display: flex;
- 
+    justify-content: center;
 }
-
 .card-body,
 .card-header {
     font-family: 'Fira Sans', sans-serif;
-    opacity: 0.5;
 }
 
 .card-body:hover,
 .card-header:hover {
     opacity: 1.0;
-    cursor: url(icons8-lightsaber-48.png), auto;
 } 
 
 .team-area {
     justify-content: space-around;
 }
 
-div.card {
-    border: 5px solid red;
-    border-radius: 5%;
-    box-shadow: 0 4px 8px 0 rgba(216, 34, 34, 0.2), 0 6px 20px 0 rgba(250, 4, 4, 0.19);
-}
-
-div.card:nth-child(2n+0) {
+div.card{
+    background-color: transparent;
+    color: white;
     border: 5px solid blue;
     border-radius: 5%;
     box-shadow: 0 4px 8px 0 rgba(72, 83, 235, 0.479), 0 6px 20px 0 rgba(72, 83, 235, 0.479);
+    position: relative;
+    animation: mymove 10s;
+    animation-timing-function: ease-in-out;
+}
+
+.list-group-item {
+    background-color: transparent;
+}
+
+
+@keyframes mymove {
+    from {bottom: -450px;}
+    to {bottom: 0px;}
 }
