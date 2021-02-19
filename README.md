@@ -1,4 +1,5 @@
 # Generator-Employee-Roster
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents
 * [Description](#description)
@@ -6,7 +7,7 @@
 * [Installation](#installation)
 * [Tests](#tests)
 * [Project Demo](#project-demo)
-
+* [Contact](#contact)
 
 ### Description 
 ```
@@ -29,7 +30,14 @@ node app
 To test this program, install jest npm and run test
 
 ### Project Demo
+<a href="https://ibb.co/zPfxGG7"><img src="https://i.ibb.co/YfjQppy/generator.png" alt="generator" border="0"></a><br>
 ![](generator-employee-roster.gif)
 
+### Contact 
+Questions? 
+
+* Audrey Bissiere-Grote
+* Email: abissieregrote@gmail.com
+* LinkedIn: https://www.linkedin.com/in/audrey-bissiere-grote/
 
 
